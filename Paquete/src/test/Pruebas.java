@@ -7,9 +7,10 @@ public class Pruebas {
 		// TODO Auto-generated method stub
 		paquete1.Persona p=new paquete1.Persona(24,"Andro");
 		paquete2.Persona m=new paquete2.Persona(21, "Juan", "Masculino");
-		
+		System.out.println("INICIO DE IMPRESION");
 		System.out.println(p.toString());
 		System.out.println(m.toString());
+		System.out.println("FIN DE IMPRESION");
 		
 	}
 
